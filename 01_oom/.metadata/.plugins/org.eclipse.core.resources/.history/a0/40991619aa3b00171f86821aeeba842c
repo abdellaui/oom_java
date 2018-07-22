@@ -1,0 +1,7 @@
+
+public class CIPInsel {
+	String name;
+	public CIPInsel(String s){
+		name = s;
+	}
+}

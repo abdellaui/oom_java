@@ -1,0 +1,9 @@
+
+public class Quader {
+	public int laenge;
+	public int breite;
+	public int hoehe;
+	public int berechneVolumen(){
+		return laenge*breite*hoehe;
+	}
+}

@@ -1,0 +1,23 @@
+
+import java.lang.String;
+public class ArbeitenMitArrays {
+	public static void main(String[] args){
+	String[] x = new String[4];
+	x[0]= "a";
+	x[1]= "b";
+	x[2]= "c";
+	x[2]= "d";
+	x[1]= null;
+	for(int i = 0; i< x.lenght; i++){
+		System.out.println(x[i]);
+	}
+	String suchtext = "d";
+	int nr= -1;
+	for(int i = 0; i < x.length; i++){
+		if(suchtext.equals(x[i])){
+			nr = 1;
+		}
+		System.out.println("Post:" +suchtext+ " Nr:"+ nr);
+	}
+	}
+}

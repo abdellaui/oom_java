@@ -1,0 +1,8 @@
+
+public class Computer {
+	public String typ;
+	public Student studentbenutzer;
+	public Computer(String t){
+		typ = t;
+	}
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="08_1_template/src"/>
+	<classpathentry kind="src" path="08_template/src"/>
+	<classpathentry kind="src" path="10_state/src"/>
+	<classpathentry kind="src" path="18_08_17_oom/ArbeitenMitArrays/src"/>
+	<classpathentry kind="src" path="18_08_17_oom/Quader/src"/>
+	<classpathentry kind="src" path="18_08_17_oom/Student/src"/>
+	<classpathentry kind="src" path="5_1_MMORPG/src"/>
+	<classpathentry kind="src" path="5_decorator/src"/>
+	<classpathentry kind="src" path="java_adapter_facade/src"/>
+	<classpathentry kind="src" path="java_command_stack/src"/>
+	<classpathentry kind="src" path="java_command/src"/>
+	<classpathentry kind="src" path="java_facade_adapter/src"/>
+	<classpathentry kind="src" path="java_Factory/src"/>
+	<classpathentry kind="src" path="java_Strategy_1/src"/>
+	<classpathentry kind="src" path="java_Strategy/src"/>
+	<classpathentry kind="src" path="u06_composite/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="08_1_template/bin"/>
+</classpath>

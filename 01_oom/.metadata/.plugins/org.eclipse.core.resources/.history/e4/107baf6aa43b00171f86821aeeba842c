@@ -1,0 +1,9 @@
+public class QuaderTest {
+	public static void main(String[] args){
+		Quader q1 = new Quader();
+		q1.laenge = 10;
+		q1.breite = 5;
+		q1.hoehe = 4;
+		System.out.println("Volumen:" + q1.berechneVolumen() + "m^3");
+	}
+}

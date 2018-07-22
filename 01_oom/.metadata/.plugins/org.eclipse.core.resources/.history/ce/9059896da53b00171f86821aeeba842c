@@ -1,0 +1,26 @@
+public class QuaderTest {
+	public static void main(String[] args){
+		Quader q1 = new Quader();
+		q1.laenge = 10.0;
+		q1.breite = 5.0;
+		q1.hoehe = 4.0;
+		System.out.println("Volumen:" + q1.berechneVolumen() + "m^3");
+		System.out.println("Volumen:" + q1.oberflaeche() + "m^3");
+		
+		
+		Quader q2 = new Quader();
+		q2.laenge = 5.0;
+		q2.breite = 5.0;
+		q2.hoehe = 5.0;
+		System.out.println("Volumen:" + q2.berechneVolumen() + "m^3");
+		System.out.println("Volumen:" + q2.oberflaeche() + "m^3");
+		
+		Quader q3 = new Quader();
+		q3.laenge = (q1.laenge+q2.laenge)/2;
+		q3.breite = (q1.breite+q2.breite)/2;
+		q3.hoehe = (q1.hoehe+q2.hoehe)/2;
+		System.out.println("Volumen:" + q3.berechneVolumen() + "m^3");
+		System.out.println("Volumen:" + q3.oberflaeche() + "m^3");
+		
+	}
+}

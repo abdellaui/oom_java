@@ -1,0 +1,10 @@
+
+public class AssoziationsTest {
+	public static void main(String[] args){
+		Student s1 = new Student("Peter Petersen", 108089288888L);
+		Computer c1 = new Computer("Dell OptiPlex 755 MT");
+		s1.computer = c1;
+		System.out.println(s1.name+" benutzt: "+ s1.computer.typ);
+	}
+
+}

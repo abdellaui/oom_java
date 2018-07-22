@@ -1,0 +1,25 @@
+
+public class Quader {
+	public double laenge;
+	public double breite;
+	public double hoehe;
+	public double dichte;
+	public Quader(){
+		
+	}
+	public Quader(double a, double b, double c, double e){
+		this.laenge = a;
+		this.breite = b;
+		this.hoehe = c;
+		this.dichte.e;		
+	}
+	public double berechneVolumen(){
+		return laenge*breite*hoehe;
+	}
+	public double oberflaeche(){
+		return 2*(laenge*breite + breite*hoehe +laenge * hoehe);
+	}
+	public double berechneDichte(){
+		return this.berechneVolumen()*100/this.dichte;
+	}
+}
